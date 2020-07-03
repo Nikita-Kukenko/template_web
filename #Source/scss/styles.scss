@@ -436,13 +436,14 @@ body {
 }
 
 .contacts__img {
-	flex: 0 0 240px;
+	flex: 0 0 250px;
 	max-height: 42px;
-	.contacts__social {
+	margin: 20px 0 0;
+	.social__icon {
 		max-width: 100%;
 		min-height: 100%;
 		object-fit: cover;
-		margin: 20px 0 0;
+		margin: 0 10px 0 0;
 	}
 }
 
@@ -451,11 +452,37 @@ body {
 	height: 40px;
 	background-color: #ffffff;
 	border-radius: 5px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #445162;
+	@include adaptiv-font(16, 12);
 	margin: 0 0 20px;
-		&::-webkit-input-placeholder {}
-		&::-moz-placeholder {}
-		&:-moz-placeholder {}
-		&:-ms-input-placeholder {}
+	padding: 0 10px;
+		&::-webkit-input-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&::-moz-placeholder {
+			padding: 10px;
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&:-moz-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&:-ms-input-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
 }
 
 .contacts__email {
@@ -463,11 +490,36 @@ body {
 	height: 40px;
 	background-color: #ffffff;
 	border-radius: 5px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #445162;
+	@include adaptiv-font(16, 12);
 	margin: 0 0 20px;
-		&::-webkit-input-placeholder {}
-		&::-moz-placeholder {}
-		&:-moz-placeholder {}
-		&:-ms-input-placeholder {}
+	padding: 0 10px;
+		&::-webkit-input-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&::-moz-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&:-moz-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&:-ms-input-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
 }
 
 .contacts__message {
@@ -475,11 +527,36 @@ body {
 	height: 170px;
 	background-color: #ffffff;
 	border-radius: 5px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #445162;
+	@include adaptiv-font(16, 12);
 	margin: 0 0 20px;
-		&::-webkit-input-placeholder {}
-		&::-moz-placeholder {}
-		&:-moz-placeholder {}
-		&:-ms-input-placeholder {}
+	padding:10px 10px;
+		&::-webkit-input-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&::-moz-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&:-moz-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
+		&:-ms-input-placeholder {
+			line-height: 24px;
+			font-weight: 400;
+			color: #445162;
+			@include adaptiv-font(16, 12);
+		}
 }
 
 .contacts__btn {

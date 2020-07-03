@@ -599,36 +599,188 @@ body {
 
 .contacts__img {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 240px;
-  flex: 0 0 240px;
-  max-height: 42px; }
-  .contacts__img .contacts__social {
+  -ms-flex: 0 0 250px;
+  flex: 0 0 250px;
+  max-height: 42px;
+  margin: 20px 0 0; }
+  .contacts__img .social__icon {
     max-width: 100%;
     min-height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    margin: 20px 0 0; }
+    margin: 0 10px 0 0; }
 
 .contacts__name {
   width: 500px;
   height: 40px;
   background-color: #ffffff;
   border-radius: 5px;
-  margin: 0 0 20px; }
+  line-height: 24px;
+  font-weight: 400;
+  color: #445162;
+  margin: 0 0 20px;
+  padding: 0 10px; }
+  @media (max-width: 767px) {
+    .contacts__name {
+      font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+  @media (min-width: 767px) {
+    .contacts__name {
+      font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__name::-webkit-input-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__name::-webkit-input-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__name::-webkit-input-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__name::-moz-placeholder {
+    padding: 10px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__name::-moz-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__name::-moz-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__name:-moz-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__name:-moz-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__name:-moz-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__name:-ms-input-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__name:-ms-input-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__name:-ms-input-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
 
 .contacts__email {
   width: 500px;
   height: 40px;
   background-color: #ffffff;
   border-radius: 5px;
-  margin: 0 0 20px; }
+  line-height: 24px;
+  font-weight: 400;
+  color: #445162;
+  margin: 0 0 20px;
+  padding: 0 10px; }
+  @media (max-width: 767px) {
+    .contacts__email {
+      font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+  @media (min-width: 767px) {
+    .contacts__email {
+      font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__email::-webkit-input-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__email::-webkit-input-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__email::-webkit-input-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__email::-moz-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__email::-moz-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__email::-moz-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__email:-moz-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__email:-moz-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__email:-moz-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__email:-ms-input-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__email:-ms-input-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__email:-ms-input-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
 
 .contacts__message {
   width: 500px;
   height: 170px;
   background-color: #ffffff;
   border-radius: 5px;
-  margin: 0 0 20px; }
+  line-height: 24px;
+  font-weight: 400;
+  color: #445162;
+  margin: 0 0 20px;
+  padding: 10px 10px; }
+  @media (max-width: 767px) {
+    .contacts__message {
+      font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+  @media (min-width: 767px) {
+    .contacts__message {
+      font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__message::-webkit-input-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__message::-webkit-input-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__message::-webkit-input-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__message::-moz-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__message::-moz-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__message::-moz-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__message:-moz-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__message:-moz-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__message:-moz-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
+  .contacts__message:-ms-input-placeholder {
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162; }
+    @media (max-width: 767px) {
+      .contacts__message:-ms-input-placeholder {
+        font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280)); } }
+    @media (min-width: 767px) {
+      .contacts__message:-ms-input-placeholder {
+        font-size: calc(12px + 4 * (100vw / 1280)); } }
 
 .contacts__btn {
   width: 140px;
