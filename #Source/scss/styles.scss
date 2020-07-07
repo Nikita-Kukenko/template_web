@@ -184,8 +184,6 @@ body {
 	}
 }
 
-.item {}
-
 .scrinshots {
 	padding: 50px 50px 20px;
 }
@@ -263,6 +261,7 @@ body {
 	flex-wrap: wrap;
 	margin: 0 -15px;
 }
+
 .items__row {
 	display: flex;
 	margin: 0 0 24px 0;
@@ -287,7 +286,12 @@ body {
 	background-image: url(../images/bg_review_190.png);
 	max-width: 483px;
 	max-height: 121px;
-	padding: 10px 0 10px 25px;
+	padding: 10px 10px 10px 25px;
+	p {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		height: 64px;
+	}
 }
 
 .items__review {
@@ -394,6 +398,7 @@ body {
 	// height: 509px;
 	justify-content: center;
 	// align-items: center;
+	width: 100%;
 }
 
 .contacts__title {
@@ -409,12 +414,16 @@ body {
 .contacts__inform {
 	display: flex;
 	margin: 0 -22.5px;
+	width: 100%;
+	justify-content: center;
 }
 .contacts__input {
 	display: flex;
 	flex-direction: column;
 	padding: 0 22.5px;
 	align-items: center;
+	width: 100%;
+	max-width: 500px;
 }
 .contacts__text {
 	display: flex;
@@ -436,11 +445,9 @@ body {
 }
 
 .contacts__img {
-	flex: 0 0 260px;
 	max-height: 42px;
 	margin: 20px 0 0;
 	.social__icon {
-		max-width: 100%;
 		min-height: 100%;
 		object-fit: cover;
 		margin: 0 12px 0 0;
@@ -448,7 +455,7 @@ body {
 }
 
 .contacts__name {
-	width: 500px;
+	width: 100%;
 	height: 40px;
 	background-color: #ffffff;
 	border-radius: 5px;
@@ -486,7 +493,7 @@ body {
 }
 
 .contacts__email {
-	width: 500px;
+	width: 100%;
 	height: 40px;
 	background-color: #ffffff;
 	border-radius: 5px;
@@ -523,7 +530,7 @@ body {
 }
 
 .contacts__message {
-	width: 500px;
+	width: 100%;
 	height: 170px;
 	background-color: #ffffff;
 	border-radius: 5px;
